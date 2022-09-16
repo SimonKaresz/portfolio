@@ -1,0 +1,38 @@
+#title{
+    font-size: 3rem;
+}
+
+mat-card{
+    margin: 0px auto;
+    background-color: rgba(37, 38, 37,0.6);
+    box-shadow: 5px 5px 1px 1px rgba(37, 38, 37,0.6);
+    border-radius: 15px;
+    width: 100%;
+    padding: 0px 0px 20px;
+}
+
+h1{
+    font-size: 1.1rem;
+    text-shadow: 2px 2px 5px rgba(20, 10, 20,1);
+
+}
+
+.progress{
+    background-color: rgba(30, 30, 30,0.8);
+}
+
+.progress-bar{
+    color: black;
+    font-size: 0.9rem;
+}
+
+@keyframes html_progress{from{width: 0%;}to{width: 75%;}}
+@keyframes css_progress{from{width: 0%;}to{width: 60%;}}
+@keyframes bs_progress{from{width: 0%;}to{width: 55%;}}
+@keyframes js_progress{from{width: 0%;}to{width: 50%;}}
+@keyframes jq_progress{from{width: 0%;}to{width: 50%;}}
+@keyframes ts_progress{from{width: 0%;}to{width: 45%;}}
+@keyframes ang_progress{from{width: 0%;}to{width: 35%;}}
+@keyframes node_progress{from{width: 0%;}to{width: 15%;}}
+@keyframes sql_progress{from{width: 0%;}to{width: 10%;}}
+@keyframes mongo_progress{from{width: 0%;}to{width: 15%;}}

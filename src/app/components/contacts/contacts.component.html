@@ -1,0 +1,52 @@
+<div class="container mt-5">
+  <main>
+    <div class="row align-items-center">
+      <div class="col-lg-3 col-md-12">
+        <h1 class="text-center text-primary">Elérhetőségek</h1>
+      </div>
+      <div class="col-lg-9 col-md-12">
+        <div id="contacts-link">
+          <div class="row gx-3 gy-5">
+            <div class="col-lg-3 col-6">
+              <div class="link">
+                <p>Email</p><a [href]="contactEmail" target="_blank" id="emailLink"><i class="bi bi-envelope-fill"
+                    id="emailIcon"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="link">
+                <p>Messenger</p><a [href]="contactMessenger" target="_blank" id="messengerLink"><i
+                    class="bi bi-messenger" id="messengerIcon"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="link">
+                <p>GitHub</p><a [href]="contactGitHub" target="_blank" id="githubLink"><i class="bi bi-github"
+                    id="githubIcon"></i></a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6">
+              <div class="link">
+                <p>LinkedIn</p><a [href]="contactLinkedin" target="_blank" id="linkedinLink"><i class="bi bi-linkedin"
+                    id="linkedinIcon"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="cv" class="mt-5">
+        <div class="row align-items-center">
+          <div class="col-lg-3 col-md-12">
+            <h1 class="text-center text-primary">Önéletrajz</h1>
+          </div>
+          <div class="col-lg-9 col-md-12">
+            <div id="cvLink">
+              <h2 class="text-primary">Letöltés</h2>
+              <a [href]="cvLink" target="_blank"><i class="bi bi-cloud-download-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>

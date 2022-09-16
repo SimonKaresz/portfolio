@@ -1,0 +1,56 @@
+#contacts-link{
+    margin: 0px auto;
+    width: 100%;
+    padding: 150px 0px;
+    height: fit-content;
+    background-color: rgba(20,20,20,0.4);
+    box-shadow: 4px 4px 0px 0px rgba(50,50,50,.5);
+    border-radius: 10px 10px 20px 20px;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: 300;
+    font-style: italic;
+    text-shadow: 3px 3px 5px rgba(10,10,10,.8);
+}
+
+#contacts-link a{
+    color: inherit;
+    font-size: 5rem;
+}
+
+#contacts-link .link{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(10,10,10,.5);
+}
+
+#contacts-link .link:hover{
+    color: rgba(10,10,10,1);
+}
+
+
+
+
+#cvLink{
+    margin: 0px auto;
+    width: 100%;
+    padding: 50px 0px;
+    height: fit-content;
+    background-color: rgba(20,20,20,0.4);
+    box-shadow: 4px 4px 0px 0px rgba(50,50,50,.5);
+    border-radius: 10px 10px 20px 20px;
+    text-align: center;
+}
+
+#cvLink a{
+    color: rgba(10,10,10,.5);
+    font-size: 3rem;
+}
+
+#cvLink a:hover{
+    color: #0c60e8;
+}

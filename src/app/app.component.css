@@ -1,0 +1,39 @@
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.navbar-brand{
+    letter-spacing: 2px;
+}
+
+.navbar-brand::first-letter{
+    color: #0c60e8;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-toggler:hover,.navbar-toggler-icon:hover{
+    color: #0c60e8;
+}
+
+.offcanvas-header h5{
+    color: #0c60e8;
+}
+
+.nav-item .active{
+    border: 1px solid #0c60e8;
+    border-radius: 5px;
+    color: #0c60e8;
+}
+
+.nav-link{
+    padding: 50px;
+    font-size: 1rem;
+}
+
+.nav-link:hover,.nav-link:focus,.nav-link:active{
+    border: 1px solid #0c60e8;
+    border-radius: 5px;
+    color: #0c60e8;
+}
