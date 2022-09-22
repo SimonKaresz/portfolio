@@ -1,1 +1,53 @@
-<p>references works!</p>
+<div class="container">
+  <main>
+    <div id="content" class="mt-5">
+      <h1 class="text-center text-primary" id="title">Referencia munkáim</h1>
+      <mat-tab-group mat-align-tabs="center" animationDuration="0ms">
+        <mat-tab label="Porfolio">
+          <div class="px-4 pt-5 my-5 text-center border-bottom border-primary" id="to_do_1_content">
+            <h1 class="display-4 fw-bold text-primary">Porfolió oldal</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Angulárban megírt porfolió oldalam</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" id="link_btn">
+                <a [href]="porfolio.github_code" target="_blank">GitHub code</a>
+              </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <a [href]="porfolio.github_code" target="_blank">
+                  <img [src]="porfolio.ref_p_img" class="img-fluid border border-primary rounded-3 shadow-lg mb-4"
+                    [alt]="porfolio.alt" loading="lazy" width="700" height="500">
+                </a>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="To Do alkalmazás">
+          <div class="px-4 pt-5 my-5 text-center border-bottom border-primary" id="to_do_1_content">
+            <h1 class="display-4 fw-bold text-primary">To Do Alkalmazás <span style="font-size: 1rem;">v1.0</span></h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">To Do alkalmazás statikus adatkezeléssel</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" id="link_btn">
+                <a [href]="sample01.github_pages" target="_blank">GitHub pages</a>
+                <a [href]="sample01.github_code" target="_blank">GitHub code</a>
+              </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <a [href]="sample01.github_code" target="_blank">
+                  <img [src]="sample01.ref_tda_img" class="img-fluid border border-primary rounded-3 shadow-lg mb-4"
+                    [alt]="sample01.alt" loading="lazy" width="700" height="500">
+                </a>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="Feltöltés alatt">
+          <h1 class="text-center mt-5" style="color: rgba(20,20,20,.75);">A további referencia munkák feltöltés
+            alatt....</h1>
+          <mat-spinner class="my-5 mx-auto"></mat-spinner>
+        </mat-tab>
+      </mat-tab-group>
+    </div>
+  </main>
+</div>
