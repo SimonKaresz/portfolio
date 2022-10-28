@@ -42,6 +42,26 @@
             </div>
           </div>
         </mat-tab>
+        <mat-tab label="React Task alkalmazás">
+          <div class="px-4 pt-5 my-5 text-center border-bottom border-primary" id="to_do_1_content">
+            <h1 class="display-4 fw-bold text-primary">React Task App</h1>
+            <div class="col-lg-6 mx-auto">
+              <p class="lead mb-4">Task alkalmazás React-el és Firebase-el</p>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5" id="link_btn">
+                <a [href]="reactTask.app_page" target="_blank">Alkalmazás</a>
+                <a [href]="reactTask.github_code" target="_blank">GitHub code</a>
+              </div>
+            </div>
+            <div class="overflow-hidden" style="max-height: 30vh;">
+              <div class="container px-5">
+                <a [href]="reactTask.github_code" target="_blank">
+                  <img [src]="reactTask.ref_rta_img" class="img-fluid border border-primary rounded-3 shadow-lg mb-4"
+                    [alt]="reactTask.alt" loading="lazy" width="700" height="500">
+                </a>
+              </div>
+            </div>
+          </div>
+        </mat-tab>
         <mat-tab label="Feltöltés alatt">
           <h1 class="text-center mt-5" style="color: rgba(20,20,20,.75);">A további referencia munkák feltöltés
             alatt....</h1>

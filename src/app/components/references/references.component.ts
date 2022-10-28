@@ -21,6 +21,13 @@ export class ReferencesComponent implements OnInit {
     github_code: "https://github.com/SimonKaresz/to_do_app_static",
   }
 
+  reactTask = {
+    ref_rta_img:"assets/img/ref_rta.png",
+    alt:"task app with react",
+    github_code:"https://github.com/SimonKaresz/React-Task-App",
+    app_page:"https://react-to-do-app-ea286.web.app/",
+  }
+
   constructor() { }
 
   ngOnInit(): void {
