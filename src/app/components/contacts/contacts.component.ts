@@ -11,7 +11,7 @@ export class ContactsComponent implements OnInit {
   contactMessenger: string = "http://m.me/karesz.simon";
   contactGitHub: string = "https://github.com/SimonKaresz";
   contactLinkedin: string = "https://www.linkedin.com/in/karesz-simon-5419a8247/";
-  cvLink: string = "https://drive.google.com/file/d/1JoiotIc3tWfsCZIQh1w0xYrDLtWqJHBb/view?usp=sharing"
+  cvLink: string = "https://drive.google.com/file/d/1VQ6VbeVHZh5TeNV0rKnXnB_sXhgPn0UD/view?usp=sharing"
 
   constructor() { }
 
